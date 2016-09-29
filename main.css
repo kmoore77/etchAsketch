@@ -1,0 +1,99 @@
+.container {
+	background-color: #ccc;
+	box-shadow:         inset 0 0 3px #000000;
+	margin: 10px auto 0;
+	height: 352px;
+	width: 352px;
+	border: solid 100px #D91104;
+	border-radius: 8px;
+}
+
+#button {
+	background-color: #b3b3b3;
+	color: white;
+	border-radius: 2px;
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+	font-family: serif;
+	font-weight: bold;
+	font-size: 0.75em;
+	text-align: center;
+	text-decoration: none;
+	width: 60px;
+	height: 20px;
+	margin: 10px auto 0;
+	padding-top: 7px;
+	clear: both;
+	display: block;
+	
+}
+
+#button:hover{
+	background-color: #d3d3d3;
+}
+
+#button:active{
+	background-color: #d3d3d3;
+	box-shadow: 1px 0px 5px 1px rgba(0, 0, 0, 0.4);
+}
+
+
+
+h1 {
+	color: #fff;
+	font-size: 2em;
+	font-family: serif;
+	margin: auto 0;
+	position: absolute;
+	top: 100px;
+	left: 420px;
+}
+
+.row {
+	float: left;
+	background-color: #D3D3D3;
+	height: 20px;
+	width: 20px;
+	margin: 1px;
+	
+}
+
+.square {
+	float: left;
+	background-color: #D3D3D3;
+	height: 20px;
+	width: 20px;
+	margin: 1px;
+	
+}
+
+.active{
+	background-color: black;
+}
+
+#nob1 {
+	position: absolute;
+	background-color: #fff;
+	box-shadow: 
+	2px 2px 6px 0px rgba(0, 0, 0, 0.4),
+	inset 0 0 3px #000000;
+	height: 60px;
+	width: 60px;
+	border-radius: 100%;
+	top: 525px;
+	left: 225px;
+	clear: both;
+}
+
+#nob2 {
+	position: absolute;
+	background-color: #fff;
+	box-shadow: 
+	2px 2px 6px 0px rgba(0, 0, 0, 0.4),
+	inset 0 0 3px #000000;
+	height: 60px;
+	width: 60px;
+	border-radius: 100%;
+	top: 525px;
+	right: 225px;
+	clear: both;
+}
